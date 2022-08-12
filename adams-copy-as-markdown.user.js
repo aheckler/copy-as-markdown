@@ -1,14 +1,14 @@
 // ==UserScript==
-// @name        Adam's Copy as Markdown
 // @author      aheckler
 // @description Takes the current selection, turns it into Markdown, and places it in the clipboard.
-// @namespace   https://github.com/aheckler/copy-as-markdown
-// @match       *://*/*
-// @grant       GM_setClipboard
-// @require     https://unpkg.com/turndown@^7/dist/turndown.js
-// @version     1.0.0
-// @updateURL   https://github.com/aheckler/copy-as-markdown/raw/main/adams-copy-as-markdown.user.js
 // @downloadURL https://github.com/aheckler/copy-as-markdown/raw/main/adams-copy-as-markdown.user.js
+// @grant       GM_setClipboard
+// @match       *://*/*
+// @name        Adam's Copy as Markdown
+// @namespace   https://github.com/aheckler/copy-as-markdown
+// @require     https://unpkg.com/turndown@^7/dist/turndown.js
+// @updateURL   https://github.com/aheckler/copy-as-markdown/raw/main/adams-copy-as-markdown.user.js
+// @version     1.0.0
 // ==/UserScript==
 
 document.addEventListener( 'keydown', event => {
